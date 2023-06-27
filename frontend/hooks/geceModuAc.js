@@ -1,4 +1,3 @@
-import { useState } from "react";
 import useLocalStorage from "./localStorageKullan";
 
 export default function useGeceModuAc(initialValue) {

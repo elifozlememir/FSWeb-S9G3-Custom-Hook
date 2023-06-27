@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 
-const useLocalStorage = (initialValue,key) => {
+
+const useLocalStorage = (key,initialValue) => {
     const [state,setState] = useState(
 
     () => {   
